@@ -14,6 +14,8 @@
 		7D2EF3FE1DA50E28004D6E06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D2EF3FC1DA50E28004D6E06 /* LaunchScreen.storyboard */; };
 		7D2EF4091DA50E28004D6E06 /* ColllectioViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2EF4081DA50E28004D6E06 /* ColllectioViewDemoTests.swift */; };
 		7D2EF4141DA50E28004D6E06 /* ColllectioViewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2EF4131DA50E28004D6E06 /* ColllectioViewDemoUITests.swift */; };
+		7D2EF4231DA529EF004D6E06 /* CollectionCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2EF4211DA529EF004D6E06 /* CollectionCellCollectionViewCell.swift */; };
+		7D2EF4241DA529EF004D6E06 /* CollectionCellCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D2EF4221DA529EF004D6E06 /* CollectionCellCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		7D2EF40F1DA50E28004D6E06 /* ColllectioViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColllectioViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D2EF4131DA50E28004D6E06 /* ColllectioViewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColllectioViewDemoUITests.swift; sourceTree = "<group>"; };
 		7D2EF4151DA50E28004D6E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D2EF4211DA529EF004D6E06 /* CollectionCellCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		7D2EF4221DA529EF004D6E06 /* CollectionCellCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionCellCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				7D2EF3FA1DA50E28004D6E06 /* Assets.xcassets */,
 				7D2EF3FC1DA50E28004D6E06 /* LaunchScreen.storyboard */,
 				7D2EF3FF1DA50E28004D6E06 /* Info.plist */,
+				7D2EF4211DA529EF004D6E06 /* CollectionCellCollectionViewCell.swift */,
+				7D2EF4221DA529EF004D6E06 /* CollectionCellCollectionViewCell.xib */,
 			);
 			path = ColllectioViewDemo;
 			sourceTree = "<group>";
@@ -193,15 +199,18 @@
 				TargetAttributes = {
 					7D2EF3EF1DA50E28004D6E06 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					7D2EF4031DA50E28004D6E06 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 7D2EF3EF1DA50E28004D6E06;
 					};
 					7D2EF40E1DA50E28004D6E06 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 7D2EF3EF1DA50E28004D6E06;
 					};
@@ -232,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D2EF4241DA529EF004D6E06 /* CollectionCellCollectionViewCell.xib in Resources */,
 				7D2EF3FE1DA50E28004D6E06 /* LaunchScreen.storyboard in Resources */,
 				7D2EF3FB1DA50E28004D6E06 /* Assets.xcassets in Resources */,
 				7D2EF3F91DA50E28004D6E06 /* Main.storyboard in Resources */,
@@ -260,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D2EF3F61DA50E28004D6E06 /* ViewController.swift in Sources */,
+				7D2EF4231DA529EF004D6E06 /* CollectionCellCollectionViewCell.swift in Sources */,
 				7D2EF3F41DA50E28004D6E06 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +516,7 @@
 				7D2EF41A1DA50E28004D6E06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D2EF41B1DA50E28004D6E06 /* Build configuration list for PBXNativeTarget "ColllectioViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +525,7 @@
 				7D2EF41D1DA50E28004D6E06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D2EF41E1DA50E28004D6E06 /* Build configuration list for PBXNativeTarget "ColllectioViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +534,7 @@
 				7D2EF4201DA50E28004D6E06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
