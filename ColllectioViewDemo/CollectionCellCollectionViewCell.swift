@@ -10,6 +10,7 @@ import UIKit
 
 class CollectionCellCollectionViewCell: UICollectionViewCell {
 
+    @IBOutlet weak var dynamicLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

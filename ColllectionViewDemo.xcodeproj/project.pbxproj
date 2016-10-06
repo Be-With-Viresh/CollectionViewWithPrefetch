@@ -36,17 +36,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7D2EF3F01DA50E28004D6E06 /* ColllectioViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColllectioViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D2EF3F01DA50E28004D6E06 /* ColllectionViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColllectionViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D2EF3F31DA50E28004D6E06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D2EF3F51DA50E28004D6E06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7D2EF3F81DA50E28004D6E06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D2EF3FA1DA50E28004D6E06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D2EF3FD1DA50E28004D6E06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D2EF3FF1DA50E28004D6E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7D2EF4041DA50E28004D6E06 /* ColllectioViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColllectioViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D2EF4041DA50E28004D6E06 /* ColllectionViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColllectionViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D2EF4081DA50E28004D6E06 /* ColllectioViewDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColllectioViewDemoTests.swift; sourceTree = "<group>"; };
 		7D2EF40A1DA50E28004D6E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7D2EF40F1DA50E28004D6E06 /* ColllectioViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColllectioViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D2EF40F1DA50E28004D6E06 /* ColllectionViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColllectionViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D2EF4131DA50E28004D6E06 /* ColllectioViewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColllectioViewDemoUITests.swift; sourceTree = "<group>"; };
 		7D2EF4151DA50E28004D6E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D2EF4211DA529EF004D6E06 /* CollectionCellCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionCellCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -81,7 +81,7 @@
 		7D2EF3E71DA50E28004D6E06 = {
 			isa = PBXGroup;
 			children = (
-				7D2EF3F21DA50E28004D6E06 /* ColllectioViewDemo */,
+				7D2EF3F21DA50E28004D6E06 /* ColllectionViewDemo */,
 				7D2EF4071DA50E28004D6E06 /* ColllectioViewDemoTests */,
 				7D2EF4121DA50E28004D6E06 /* ColllectioViewDemoUITests */,
 				7D2EF3F11DA50E28004D6E06 /* Products */,
@@ -91,25 +91,22 @@
 		7D2EF3F11DA50E28004D6E06 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7D2EF3F01DA50E28004D6E06 /* ColllectioViewDemo.app */,
-				7D2EF4041DA50E28004D6E06 /* ColllectioViewDemoTests.xctest */,
-				7D2EF40F1DA50E28004D6E06 /* ColllectioViewDemoUITests.xctest */,
+				7D2EF3F01DA50E28004D6E06 /* ColllectionViewDemo.app */,
+				7D2EF4041DA50E28004D6E06 /* ColllectionViewDemoTests.xctest */,
+				7D2EF40F1DA50E28004D6E06 /* ColllectionViewDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7D2EF3F21DA50E28004D6E06 /* ColllectioViewDemo */ = {
+		7D2EF3F21DA50E28004D6E06 /* ColllectionViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				7D2EF3F31DA50E28004D6E06 /* AppDelegate.swift */,
-				7D2EF3F51DA50E28004D6E06 /* ViewController.swift */,
-				7D2EF3F71DA50E28004D6E06 /* Main.storyboard */,
-				7D2EF3FA1DA50E28004D6E06 /* Assets.xcassets */,
-				7D2EF3FC1DA50E28004D6E06 /* LaunchScreen.storyboard */,
-				7D2EF3FF1DA50E28004D6E06 /* Info.plist */,
-				7D2EF4211DA529EF004D6E06 /* CollectionCellCollectionViewCell.swift */,
-				7D2EF4221DA529EF004D6E06 /* CollectionCellCollectionViewCell.xib */,
+				7DD69B561DA618BD008076EF /* UI */,
+				7DD69B551DA6189A008076EF /* Utility And Resource */,
+				7DD69B541DA6187D008076EF /* AppDelegate */,
+				7DD69B531DA61863008076EF /* ViewController */,
 			);
+			name = ColllectionViewDemo;
 			path = ColllectioViewDemo;
 			sourceTree = "<group>";
 		};
@@ -131,12 +128,48 @@
 			path = ColllectioViewDemoUITests;
 			sourceTree = "<group>";
 		};
+		7DD69B531DA61863008076EF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7D2EF3F51DA50E28004D6E06 /* ViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		7DD69B541DA6187D008076EF /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				7D2EF3F31DA50E28004D6E06 /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		7DD69B551DA6189A008076EF /* Utility And Resource */ = {
+			isa = PBXGroup;
+			children = (
+				7D2EF3F71DA50E28004D6E06 /* Main.storyboard */,
+				7D2EF3FA1DA50E28004D6E06 /* Assets.xcassets */,
+				7D2EF3FC1DA50E28004D6E06 /* LaunchScreen.storyboard */,
+				7D2EF3FF1DA50E28004D6E06 /* Info.plist */,
+			);
+			name = "Utility And Resource";
+			sourceTree = "<group>";
+		};
+		7DD69B561DA618BD008076EF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				7D2EF4211DA529EF004D6E06 /* CollectionCellCollectionViewCell.swift */,
+				7D2EF4221DA529EF004D6E06 /* CollectionCellCollectionViewCell.xib */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7D2EF3EF1DA50E28004D6E06 /* ColllectioViewDemo */ = {
+		7D2EF3EF1DA50E28004D6E06 /* ColllectionViewDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7D2EF4181DA50E28004D6E06 /* Build configuration list for PBXNativeTarget "ColllectioViewDemo" */;
+			buildConfigurationList = 7D2EF4181DA50E28004D6E06 /* Build configuration list for PBXNativeTarget "ColllectionViewDemo" */;
 			buildPhases = (
 				7D2EF3EC1DA50E28004D6E06 /* Sources */,
 				7D2EF3ED1DA50E28004D6E06 /* Frameworks */,
@@ -146,14 +179,14 @@
 			);
 			dependencies = (
 			);
-			name = ColllectioViewDemo;
+			name = ColllectionViewDemo;
 			productName = ColllectioViewDemo;
-			productReference = 7D2EF3F01DA50E28004D6E06 /* ColllectioViewDemo.app */;
+			productReference = 7D2EF3F01DA50E28004D6E06 /* ColllectionViewDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7D2EF4031DA50E28004D6E06 /* ColllectioViewDemoTests */ = {
+		7D2EF4031DA50E28004D6E06 /* ColllectionViewDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7D2EF41B1DA50E28004D6E06 /* Build configuration list for PBXNativeTarget "ColllectioViewDemoTests" */;
+			buildConfigurationList = 7D2EF41B1DA50E28004D6E06 /* Build configuration list for PBXNativeTarget "ColllectionViewDemoTests" */;
 			buildPhases = (
 				7D2EF4001DA50E28004D6E06 /* Sources */,
 				7D2EF4011DA50E28004D6E06 /* Frameworks */,
@@ -164,14 +197,14 @@
 			dependencies = (
 				7D2EF4061DA50E28004D6E06 /* PBXTargetDependency */,
 			);
-			name = ColllectioViewDemoTests;
+			name = ColllectionViewDemoTests;
 			productName = ColllectioViewDemoTests;
-			productReference = 7D2EF4041DA50E28004D6E06 /* ColllectioViewDemoTests.xctest */;
+			productReference = 7D2EF4041DA50E28004D6E06 /* ColllectionViewDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7D2EF40E1DA50E28004D6E06 /* ColllectioViewDemoUITests */ = {
+		7D2EF40E1DA50E28004D6E06 /* ColllectionViewDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7D2EF41E1DA50E28004D6E06 /* Build configuration list for PBXNativeTarget "ColllectioViewDemoUITests" */;
+			buildConfigurationList = 7D2EF41E1DA50E28004D6E06 /* Build configuration list for PBXNativeTarget "ColllectionViewDemoUITests" */;
 			buildPhases = (
 				7D2EF40B1DA50E28004D6E06 /* Sources */,
 				7D2EF40C1DA50E28004D6E06 /* Frameworks */,
@@ -182,9 +215,9 @@
 			dependencies = (
 				7D2EF4111DA50E28004D6E06 /* PBXTargetDependency */,
 			);
-			name = ColllectioViewDemoUITests;
+			name = ColllectionViewDemoUITests;
 			productName = ColllectioViewDemoUITests;
-			productReference = 7D2EF40F1DA50E28004D6E06 /* ColllectioViewDemoUITests.xctest */;
+			productReference = 7D2EF40F1DA50E28004D6E06 /* ColllectionViewDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -216,7 +249,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7D2EF3EB1DA50E28004D6E06 /* Build configuration list for PBXProject "ColllectioViewDemo" */;
+			buildConfigurationList = 7D2EF3EB1DA50E28004D6E06 /* Build configuration list for PBXProject "ColllectionViewDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -229,9 +262,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7D2EF3EF1DA50E28004D6E06 /* ColllectioViewDemo */,
-				7D2EF4031DA50E28004D6E06 /* ColllectioViewDemoTests */,
-				7D2EF40E1DA50E28004D6E06 /* ColllectioViewDemoUITests */,
+				7D2EF3EF1DA50E28004D6E06 /* ColllectionViewDemo */,
+				7D2EF4031DA50E28004D6E06 /* ColllectionViewDemoTests */,
+				7D2EF40E1DA50E28004D6E06 /* ColllectionViewDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -296,12 +329,12 @@
 /* Begin PBXTargetDependency section */
 		7D2EF4061DA50E28004D6E06 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7D2EF3EF1DA50E28004D6E06 /* ColllectioViewDemo */;
+			target = 7D2EF3EF1DA50E28004D6E06 /* ColllectionViewDemo */;
 			targetProxy = 7D2EF4051DA50E28004D6E06 /* PBXContainerItemProxy */;
 		};
 		7D2EF4111DA50E28004D6E06 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7D2EF3EF1DA50E28004D6E06 /* ColllectioViewDemo */;
+			target = 7D2EF3EF1DA50E28004D6E06 /* ColllectionViewDemo */;
 			targetProxy = 7D2EF4101DA50E28004D6E06 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -453,7 +486,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.raweng.dailydemo.ColllectioViewDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColllectioViewDemo.app/ColllectioViewDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColllectionViewDemo.app/ColllectionViewDemo";
 			};
 			name = Debug;
 		};
@@ -467,7 +500,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.raweng.dailydemo.ColllectioViewDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColllectioViewDemo.app/ColllectioViewDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColllectionViewDemo.app/ColllectionViewDemo";
 			};
 			name = Release;
 		};
@@ -500,7 +533,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7D2EF3EB1DA50E28004D6E06 /* Build configuration list for PBXProject "ColllectioViewDemo" */ = {
+		7D2EF3EB1DA50E28004D6E06 /* Build configuration list for PBXProject "ColllectionViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7D2EF4161DA50E28004D6E06 /* Debug */,
@@ -509,7 +542,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7D2EF4181DA50E28004D6E06 /* Build configuration list for PBXNativeTarget "ColllectioViewDemo" */ = {
+		7D2EF4181DA50E28004D6E06 /* Build configuration list for PBXNativeTarget "ColllectionViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7D2EF4191DA50E28004D6E06 /* Debug */,
@@ -518,7 +551,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7D2EF41B1DA50E28004D6E06 /* Build configuration list for PBXNativeTarget "ColllectioViewDemoTests" */ = {
+		7D2EF41B1DA50E28004D6E06 /* Build configuration list for PBXNativeTarget "ColllectionViewDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7D2EF41C1DA50E28004D6E06 /* Debug */,
@@ -527,7 +560,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7D2EF41E1DA50E28004D6E06 /* Build configuration list for PBXNativeTarget "ColllectioViewDemoUITests" */ = {
+		7D2EF41E1DA50E28004D6E06 /* Build configuration list for PBXNativeTarget "ColllectionViewDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7D2EF41F1DA50E28004D6E06 /* Debug */,

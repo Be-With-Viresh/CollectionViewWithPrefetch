@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7D2EF3EF1DA50E28004D6E06"
-               BuildableName = "ColllectioViewDemo.app"
-               BlueprintName = "ColllectioViewDemo"
-               ReferencedContainer = "container:ColllectioViewDemo.xcodeproj">
+               BuildableName = "ColllectionViewDemo.app"
+               BlueprintName = "ColllectionViewDemo"
+               ReferencedContainer = "container:ColllectionViewDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7D2EF4031DA50E28004D6E06"
-               BuildableName = "ColllectioViewDemoTests.xctest"
-               BlueprintName = "ColllectioViewDemoTests"
-               ReferencedContainer = "container:ColllectioViewDemo.xcodeproj">
+               BuildableName = "ColllectionViewDemoTests.xctest"
+               BlueprintName = "ColllectionViewDemoTests"
+               ReferencedContainer = "container:ColllectionViewDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7D2EF40E1DA50E28004D6E06"
-               BuildableName = "ColllectioViewDemoUITests.xctest"
-               BlueprintName = "ColllectioViewDemoUITests"
-               ReferencedContainer = "container:ColllectioViewDemo.xcodeproj">
+               BuildableName = "ColllectionViewDemoUITests.xctest"
+               BlueprintName = "ColllectionViewDemoUITests"
+               ReferencedContainer = "container:ColllectionViewDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7D2EF3EF1DA50E28004D6E06"
-            BuildableName = "ColllectioViewDemo.app"
-            BlueprintName = "ColllectioViewDemo"
-            ReferencedContainer = "container:ColllectioViewDemo.xcodeproj">
+            BuildableName = "ColllectionViewDemo.app"
+            BlueprintName = "ColllectionViewDemo"
+            ReferencedContainer = "container:ColllectionViewDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7D2EF3EF1DA50E28004D6E06"
-            BuildableName = "ColllectioViewDemo.app"
-            BlueprintName = "ColllectioViewDemo"
-            ReferencedContainer = "container:ColllectioViewDemo.xcodeproj">
+            BuildableName = "ColllectionViewDemo.app"
+            BlueprintName = "ColllectionViewDemo"
+            ReferencedContainer = "container:ColllectionViewDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7D2EF3EF1DA50E28004D6E06"
-            BuildableName = "ColllectioViewDemo.app"
-            BlueprintName = "ColllectioViewDemo"
-            ReferencedContainer = "container:ColllectioViewDemo.xcodeproj">
+            BuildableName = "ColllectionViewDemo.app"
+            BlueprintName = "ColllectionViewDemo"
+            ReferencedContainer = "container:ColllectionViewDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
